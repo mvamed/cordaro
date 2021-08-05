@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <link rel="font-family" href="fuentes/Appetite-Rounded/Appetite-Rounded.ttf">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="enviarbis.php">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordaro Asesores de Seguros</title>
+</head>
+<body>
+
+       <nav id="menu1" class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: lightgray !important;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#nosotros">Nosotros</a>
+            <a class="nav-item nav-link" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </nav>
+      <div id="titulo">
+        <h1>Cordaro</h1>
+       <h2>Productor Asesor de Seguros</h2>
+      </div>
+      <div id="datos">
+        <br>
+        <p> <img src="archivos/ubicacion.png" alt="ubicacion logo">  Nuestra oficina se encuentra en El Ruiseñor 1217, Maquinista Savio, Escobar, a pasos de Ruta 26.</p>
+        <p><img src="archivos/telefono.png" alt="telefono logo"> <a href="tel:+54-9-11-28243559"> 011-2824-3559</a> </p>
+        <p><img src="archivos/mail.png" alt="mail logo"> <a href="mailto:cordaroproductores@gmail.com"> cordaroproductores@gmail.com </a> </p>
+        <p><img src="archivos/face.png" alt="logo facebook">  Cordaro Asesores</p>
+        <p><img src="archivos/instagram.png" alt="logo instagram"> @cordaroasesores</p>
+
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.925402392911!2d-58.78215148424173!3d-34.4032419544262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fada68d95b7%3A0x200381158f9ec731!2sEl%20Ruise%C3%B1or%201217%2C%20B1620GYQ%20Maquinista%20Savio%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1628183706829!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+       <main>
+      
+    <div id="contenedor1"><img src="archivos/foto4.jpg" alt="Auto en montaña"></div>
+
+    <div id="contenedor4">
+        <h2 id="nosotros">Nosotros</h2>
+        <p>Somos un grupo de productores de seguros profesionales que buscamos darte la mejor atención y la mejor cotización para que puedas asegurar tus bienes de forma confiable. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus at nobis, porro earum maiores animi debitis voluptas suscipit dolorem aut doloremque officia, excepturi tempora consequatur exercitationem consectetur laudantium a! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores placeat itaque possimus nam aliquam. Sunt corrupti itaque facilis impedit natus ullam dolorem iste possimus, veritatis recusandae ab saepe aperiam exercitationem. </p>
+        <a href="#menu1">Volver</a>
+    </div>
+
+  
+    <div id="contenedor2"><img src="archivos/foto5.jpg" alt="Telefono"></div>
+
+    <div id="contenedor3">
+        <br>
+        <h2 id="contacto">Contacto</h2>
+               <form action="enviarbis.php" method="post" id="form">
+	
+            <label for="nya">Nombre y Apellido</label>
+            <br>
+                <input type="text" name="nombres" size="30" required="required" id="nya">
+            
+            <br>
+          
+            <label for="">Correo electronico:</label>
+            <br>
+                <input type="email" name="email" size="30" required="required">
+            <br>
+           
+            
+            <label for="">Consulta</label>
+            <p style="font-style: italic;">En esta sección te pedimos que nos cuentes la marca, modelo y año de tu auto y nos dejes tu domicilio completo, junto con cualquier consulta que nos quieras hacer acerca de nuestros servicios</p>
+            <br>
+            <textarea name="consulta" id="consulta" cols="28" rows="10" placeholder="Dejenos su consulta"></textarea>
+            <br>
+            <input id="boton" type="submit" value="ENVIAR">
+            <input id="reset" type="reset" value="BORRAR DATOS">
+            <br>
+            
+            </form>
+            <a href="#menu1">Volver</a>
+            <br>
+            <br>
+            <br>
+    </div>
+
+
+
+    </main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <footer>
+
+        <p> Diseñado y Maquetado Web Vicky Amed </p>
+        <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+    </footer>
+</body>
+</html>
